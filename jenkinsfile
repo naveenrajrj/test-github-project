@@ -2,9 +2,12 @@ pipeline {
    agent any
 
    stages {
-      stage('Hello') {
+      stage('stage') {
          steps {
             echo 'Testing pipeline creation using Jenkins File'
+            echo 'Below the System Hostname and Uptime'
+            sh "hostname"
+            sh "uptime"
          }
       }
    }
