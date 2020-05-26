@@ -4,7 +4,7 @@ pipeline {
    stages {
       stage('Hello') {
          steps {
-            echo 'Testing pipeline created using Jenkins File'
+            echo 'Testing pipeline creation using Jenkins File'
          }
       }
    }
