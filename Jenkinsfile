@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh 'sh hostname'
       }
@@ -9,6 +9,6 @@ pipeline {
 
   }
   environment {
-    naveen = 'test'
+    naveenrajrj = 'Arun_432!'
   }
 }
