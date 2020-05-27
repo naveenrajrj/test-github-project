@@ -1,9 +1,15 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('Stage1') {
       steps {
-        sh 'sh hostname'
+        echo 'Hello'
+      }
+    }
+
+    stage('Stage2') {
+      steps {
+        echo 'world'
       }
     }
 
